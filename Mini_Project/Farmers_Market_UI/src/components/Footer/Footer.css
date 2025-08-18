@@ -1,0 +1,31 @@
+footer{
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgb(42, 194, 42);
+}
+
+.footer-container{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footer-container ul{
+    padding-top: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.social-icons{
+    padding: 20px 0px;
+    display: flex;
+    gap: 20px;
+}

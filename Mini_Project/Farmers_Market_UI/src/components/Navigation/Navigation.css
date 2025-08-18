@@ -1,0 +1,113 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px auto ;
+    padding: 0 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: white;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+#logo span{
+    width: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(12, 91, 12);
+    font-family: Jost;
+}
+
+#logo img{
+    width: 45px;
+    height: 45px;
+}
+
+.active-link{
+  color: rgb(12, 91, 12);
+  font-weight: bold;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    flex: 1;
+    cursor: pointer;
+}
+
+.navbar ul li a{
+  color: rgb(12, 91, 12);
+}
+
+/* Signin + cart */
+#signin-cart {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+/* Default desktop view */
+.menu {
+  display: flex;
+  flex: 0.7;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Hamburger button hidden on desktop */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: rgb(12, 91, 12);
+}
+
+/* Mobile Styles ---------------------------*/
+@media (max-width: 768px) {
+
+  /* Show hamburger */
+  .hamburger {
+    display: block;
+  }
+
+  /* Hide nav by default */
+  .menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+  }
+
+  /* Show nav when active */
+  .menu.active {
+    display: block;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  #signin-cart{
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+

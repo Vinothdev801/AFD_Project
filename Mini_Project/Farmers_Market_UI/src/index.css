@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    src: url(assets/fonts/Jost-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    src: url(assets/fonts/Inter_Medium.ttf);
+}
+
+.flex{
+    display: flex;
+}
+.flex-wrap{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  justify-items: start;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(12, 91, 12);
+    border-radius: 8px;
+    border: none;
+}
+.box-shadow{
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.layout {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1; 
+}
