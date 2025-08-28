@@ -1,54 +1,63 @@
 {
     "veges": [
         {
+            "id": 1, 
             "imagePath":"/images/Veges/tomato.png",
             "title": "Tomato",
             "count": "1kg",
             "price": 50
         },
         {
+            "id": 2,
             "imagePath": "/images/Veges/bottle-guard.png",
             "title": "Bottle Guard",
             "count": "3 Pcs",
             "price": 50
         },
         {
+            "id": 3,
             "imagePath": "/images/Veges/capsicum.png",
             "title": "Capsicum",
             "count": "500 g",
             "price": 40
         },
         {
+            "id": 4,
             "imagePath": "/images/Veges/coriander.png",
             "title": "Coriander Leaves",
             "count": "1 pch",
             "price": 10
         },
         {
+            "id": 5,
             "imagePath": "/images/Veges/curry-leaves.png",
             "title": "Curry leaves",
             "count": "1 pch",
             "price": 5
         },
         {
+            "id": 6,
             "imagePath": "/images/Veges/ladies-finger.png",
             "title": "Ladies Finger",
             "count": "1 kg",
             "price": 80
         },
         {
+            "id": 7,
             "imagePath": "/images/Veges/onion.png",
             "title": "Onion",
             "count": "1 kg",
             "price": 60
         },
         {
+            "id":8,
             "imagePath": "/images/Veges/small-onion.png",
             "title": "Small Onion",
             "count": "1 kg",
             "price": 100
         },
         {
+            "id": 9,
             "imagePath": "/images/Veges/potato.png",
             "title": "Potato",
             "count": "500 g",
@@ -58,29 +67,95 @@
 
     "flowers": [
         {
-            "title": "flower 1",
-            "price": 100,
-            "imagePath": "logo"
+            "id": 1,
+            "title": "Red Rose",
+            "price": 80,
+            "count": "500 g",
+            "imagePath": "https://images.pexels.com/photos/8856061/pexels-photo-8856061.jpeg"
         },
         {
-            "title": "flower 1",
-            "price": 100,
-            "imagePath": "logo"
+            "id": 2,
+            "title": "Lilly",
+            "price": 50,
+            "count": "1 bulb",
+            "imagePath": "https://www.edenbrothers.com/cdn/shop/files/lily-stargazer-shk-1.jpg?v=1723147775&width=675"
         },
         {
-            "title": "flower 1",
+            "id": 3,
+            "title": "Kanakambaram",
             "price": 100,
-            "imagePath": "logo"
+            "count": "1 kg",
+            "imagePath": "https://images.indianexpress.com/2024/10/kanakambaram.jpeg"
         },
         {
-            "title": "flower 1",
-            "price": 100,
-            "imagePath": "logo"
+            "id": 4,
+            "title": "Zinnia",
+            "price": 90,
+            "count": "1 kg",
+            "imagePath": "https://images.pexels.com/photos/28180042/pexels-photo-28180042.jpeg"
         },
         {
-            "title": "flower 1",
-            "price": 100,
-            "imagePath": "logo"
+            "id": 5,
+            "title": "Marigold",
+            "price": 200,
+            "count": "1 kg",
+            "imagePath": "https://images.pexels.com/photos/32275639/pexels-photo-32275639.jpeg"
+        },
+        {
+            "id": 6, 
+            "title": "Dahlia",
+            "price": 350,
+            "count": "5 flower",
+            "imagePath": "https://www.epicgardening.com/wp-content/uploads/2023/11/Dahlia-_Mister-Frans_-in-flower.jpg"
+        },
+        {
+            "id": 7, 
+            "title": "Anemone",
+            "price": 850,
+            "count": "1 kg",
+            "imagePath": "https://www.epicgardening.com/wp-content/uploads/2023/11/Close-up-anemones-in-glass-vase.jpg"
+        },
+        {
+            "id": 8, 
+            "title": "Bachelor’s Button",
+            "price": 250,
+            "count": "1 kg",
+            "imagePath": "https://www.epicgardening.com/wp-content/uploads/2023/11/Field-of-cornflowers-in-blue-purple-pink-burgundy-and-white-blooms.jpg"
+        },
+        {
+            "id": 9, 
+            "title": "Aster",
+            "price": 150,
+            "count": "5 flower",
+            "imagePath": "https://www.epicgardening.com/wp-content/uploads/2023/11/Alpine-Aster-Aster-alpinus.jpg"
+        },
+        {
+            "id": 10, 
+            "title": "Cosmos",
+            "price": 120,
+            "count": "500 g",
+            "imagePath": "https://www.epicgardening.com/wp-content/uploads/2023/11/Cosmos-atrosanguineus-Chocolate-Cosmos.jpg"
+        },
+        {
+            "id": 11, 
+            "title": "Sweet William",
+            "price": 410,
+            "count": "500 g",
+            "imagePath": "https://www.epicgardening.com/wp-content/uploads/2023/11/Many-small-vivid-pink-flowers-of-Dianthus-barbatus.jpg"
+        },
+        {
+            "id": 12, 
+            "title": "Larkspur",
+            "price": 280,
+            "count": "500 g",
+            "imagePath": "https://www.epicgardening.com/wp-content/uploads/2023/11/Blooming-colorful-Delphinium.jpg"
+        },
+        {
+            "id": 13, 
+            "title": "Flax",
+            "price": 120,
+            "count": "200 g",
+            "imagePath": "https://www.epicgardening.com/wp-content/uploads/2023/11/Flax-Linum-usitatissimum-also-known-as-common-flax-or-linseed.jpg"
         }
 
     ]

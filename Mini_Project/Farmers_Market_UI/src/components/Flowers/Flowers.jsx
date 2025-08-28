@@ -11,8 +11,8 @@ const Flowers = ({limit}) => {
     <div id='flowers'>
         <h2>Flowers</h2>
         <div className='flex flex-wrap'>
-          { displayFlowers && displayFlowers.map((item, index) =>(
-              <Card key={item.title + index} cardId={item.title + index} imagePath={item.imagePath} title={item.title} price={item.price}/>
+          { displayFlowers && displayFlowers.map((item) =>(
+              <Card key={item.id} cardId={item.id} imagePath={item.imagePath} title={item.title} count={item.count} price={item.price}/>
             ))
           }
         </div>

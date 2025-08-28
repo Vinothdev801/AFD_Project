@@ -7,6 +7,7 @@ import Contact from "./pages/contact"
 import CartPage from "./pages/Cart"
 import Login from "./pages/login"
 import OrderConfirmation from "./pages/OrderConfirmation"
+import Registration from "./pages/Registeration"
 
 export const router = createBrowserRouter([
   {
@@ -19,7 +20,8 @@ export const router = createBrowserRouter([
       { path: "contact", element: <Contact /> },
       { path: "login", element: <Login/> },
       { path: "cart", element: <CartPage/>},
-      { path: "order", element: <OrderConfirmation/>}
+      { path: "order", element: <OrderConfirmation/>},
+      { path: "register", element: <Registration/>},
     ],
   },
   
