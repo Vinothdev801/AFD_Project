@@ -30,15 +30,15 @@ This app simulates an online store where users can browse farm-fresh products li
 
 ## 📸 Screenshot
 
-![Farmers Market Screenshot](.images/home.png)
-![Farmers Market Screenshot](.images/product.png)
-![Farmers Market Screenshot](.images/contact.png)
-![Farmers Market Screenshot](.images/cart.png)
-![Farmers Market Screenshot](.images/signin.png)
-![Farmers Market Screenshot](.images/about.png)
-![Farmers Market Screenshot](.images/order.png)
+![Farmers Market Screenshot](./images/home.png)
+![Farmers Market Screenshot](./images/product.png)
+![Farmers Market Screenshot](./images/contact.png)
+![Farmers Market Screenshot](./images/cart.png)
+![Farmers Market Screenshot](./images/signin.png)
+![Farmers Market Screenshot](./images/about.png)
+![Farmers Market Screenshot](./images/order.png)
 
-
+/
 ---
 
 ## 📂 Folder Structure
