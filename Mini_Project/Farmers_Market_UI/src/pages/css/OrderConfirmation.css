@@ -1,0 +1,29 @@
+.order-confirmation {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.order-confirmation h1 {
+  color: green;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.order-confirmation p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.back-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #44c767;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #36a65c;
+}

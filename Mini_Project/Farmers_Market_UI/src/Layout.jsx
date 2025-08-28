@@ -7,11 +7,11 @@ function Layout() {
   return (
     <>
     <Navbar />
-      <div className="layout">
+      <div className="layout" style={{background: "#f6f7f876"}}>
         <main className="main-content">
-            <Outlet /> {/* page content */}
+            <Outlet />
         </main>
-        <Footer /> {/* always at bottom */}
+        <Footer />
     </div>
     </>
   )

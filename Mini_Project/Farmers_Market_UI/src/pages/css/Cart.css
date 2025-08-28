@@ -27,6 +27,21 @@
   gap: 0.5rem;
 }
 
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.cart-button{
+  padding: 8px 20px;
+  background-color: rgb(35, 187, 35);  
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
 
 .empty-cart {
   text-align: center;
@@ -102,6 +117,20 @@
   background: #000;
 }
 
+.order-btn {
+  background: #16be62;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.order-btn:hover {
+  background: #02c606;
+}
 
 .cart-footer {
   margin-top : 2rem;

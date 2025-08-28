@@ -1,50 +1,48 @@
-
-#vegtables {
+#flowers {
   padding: 20px 0px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-#vegtables h2 {
+#flowers h2 {
   font-size: 2rem;
   margin-bottom: 20px;
   color: rgb(7, 84, 23);
 }
 
-#vegtables .flex-wrap {
+#flowers .flex-wrap {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 30px;
   justify-items: center;
 }
 
-
 @media (max-width: 768px) {
-  #vegtables {
-    padding: 15px 0px;
+  #flowers {
+    padding: 15px 20px;
   }
 
-  #vegtables h2 {
+  #flowers h2 {
     font-size: 1.6rem;
     text-align: center;
   }
 
-  #vegtables .flex-wrap {
+  #flowers .flex-wrap {
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 20px;
   }
 }
 
 @media (max-width: 480px) {
-  #vegtables {
-    padding: 10px 0px;
+  #flowers {
+    padding: 10px 15px;
   }
 
-  #vegtables h2 {
+  #flowers h2 {
     font-size: 1.4rem;
   }
 
-  #vegtables .flex-wrap {
+  #flowers .flex-wrap {
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     gap: 15px;
   }

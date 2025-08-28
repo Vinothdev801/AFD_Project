@@ -45,9 +45,9 @@ const Footer = () => {
             </div>
         </div>
         <div className="social-icons">
-            <a href="/fb"><Fb/></a>
-            <a href="/insta"><Insta/></a>
-            <a href="twitter"><X/> </a>
+            <a href="#"><Fb/></a>
+            <a href="#"><Insta/></a>
+            <a href="#"><X/> </a>
         </div>
         <div className="copy">
             &copy; Farmers Market. All rights reserved.

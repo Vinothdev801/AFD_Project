@@ -1,8 +1,8 @@
-import React, { createContext, useState } from "react";
+import React, { useState } from "react";
 
-export const CartContext = createContext();
 
-export const CartProvider = ({ children }) => {
+
+export const useCartContext = () => {
   const [cartItems, setCartItems] = useState([]);
 
   // Add item to cart
@@ -30,9 +30,10 @@ export const CartProvider = ({ children }) => {
   // Clear all items
   const clearCart = () => setCartItems([]);
 
-  return (
-    <CartContext.Provider value={{ cartItems, addToCart, removeFromCart, clearCart }}>
-      {children}
-    </CartContext.Provider>
-  );
+  return { 
+    cartItems, 
+    addToCart, 
+    removeFromCart, 
+    clearCart 
+  }
 };

@@ -1,0 +1,126 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css");
+/* General background */
+.body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom right, #d9f99d, #86efac, #4ade80);
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Floating blurred circles */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.3;
+  animation: pulse 6s infinite alternate ease-in-out;
+}
+/* .circle-green {
+  top: -50px;
+  left: -50px;
+  width: 200px;
+  height: 200px;
+  background: #16a34a;
+} */
+/* .circle-yellow {
+  bottom: -80px;
+  right: -80px;
+  width: 300px;
+  height: 300px;
+  background: #facc15;
+} */
+
+/* @keyframes pulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.2); }
+} */
+
+/* Login Card (Glassmorphism) */
+.login-card {
+  position: relative;
+  z-index: 5;
+  width: 350px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+/* Header */
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.login-header h1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #065f46;
+}
+.logo-icon {
+  font-size: 36px;
+  color: #16a34a;
+  margin-right: 8px;
+}
+
+/* Form */
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.login-card label {
+  font-weight: 600;
+  color: #064e3b;
+}
+.login-card input {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #a7f3d0;
+  background: rgba(255,255,255,0.7);
+  outline: none;
+  transition: all 0.3s ease;
+}
+.login-card input:focus {
+  border-color: #16a34a;
+  box-shadow: 0 0 6px #16a34a77;
+}
+
+/* Button */
+.login-card button {
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(to right, #22c55e, #15803d);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.login-card button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(22, 163, 74, 0.5);
+}
+
+/* Links */
+.login-card .links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.login-card .links a {
+  color: #065f46;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.login-card .links a:hover {
+  text-decoration: underline;
+}

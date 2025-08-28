@@ -1,0 +1,87 @@
+{
+    "veges": [
+        {
+            "imagePath":"/images/Veges/tomato.png",
+            "title": "Tomato",
+            "count": "1kg",
+            "price": 50
+        },
+        {
+            "imagePath": "/images/Veges/bottle-guard.png",
+            "title": "Bottle Guard",
+            "count": "3 Pcs",
+            "price": 50
+        },
+        {
+            "imagePath": "/images/Veges/capsicum.png",
+            "title": "Capsicum",
+            "count": "500 g",
+            "price": 40
+        },
+        {
+            "imagePath": "/images/Veges/coriander.png",
+            "title": "Coriander Leaves",
+            "count": "1 pch",
+            "price": 10
+        },
+        {
+            "imagePath": "/images/Veges/curry-leaves.png",
+            "title": "Curry leaves",
+            "count": "1 pch",
+            "price": 5
+        },
+        {
+            "imagePath": "/images/Veges/ladies-finger.png",
+            "title": "Ladies Finger",
+            "count": "1 kg",
+            "price": 80
+        },
+        {
+            "imagePath": "/images/Veges/onion.png",
+            "title": "Onion",
+            "count": "1 kg",
+            "price": 60
+        },
+        {
+            "imagePath": "/images/Veges/small-onion.png",
+            "title": "Small Onion",
+            "count": "1 kg",
+            "price": 100
+        },
+        {
+            "imagePath": "/images/Veges/potato.png",
+            "title": "Potato",
+            "count": "500 g",
+            "price": 30
+        }
+    ],
+
+    "flowers": [
+        {
+            "title": "flower 1",
+            "price": 100,
+            "imagePath": "logo"
+        },
+        {
+            "title": "flower 1",
+            "price": 100,
+            "imagePath": "logo"
+        },
+        {
+            "title": "flower 1",
+            "price": 100,
+            "imagePath": "logo"
+        },
+        {
+            "title": "flower 1",
+            "price": 100,
+            "imagePath": "logo"
+        },
+        {
+            "title": "flower 1",
+            "price": 100,
+            "imagePath": "logo"
+        }
+
+    ]
+}

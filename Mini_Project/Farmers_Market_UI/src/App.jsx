@@ -9,8 +9,8 @@ function App() {
     <div className="container">
 
     <HeroSection/>
-    <Vegetables limit={4}/>
-    <Flowers limit = {4}/>
+    <Vegetables limit={5}/>
+    <Flowers limit = {5}/>
     </div>
   )
 }
